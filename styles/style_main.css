@@ -107,6 +107,19 @@ input, button {
   background-color: var(--gray);
 }
 
+.label--1, .label--2 {
+  font-weight: bold;
+  font-style: oblique;
+}
+
+.label--1 {
+  font-size: 1.5rem;
+}
+
+.label--2 {
+  font-size: 1.24rem;
+}
+
 /* Button Styling */
 .button {
   display: inline-block;
@@ -156,6 +169,7 @@ input {
 @media (min-width: 300px) {
   .container {
     width: 100%;
+    height: 115svh;
   }
 }
 
