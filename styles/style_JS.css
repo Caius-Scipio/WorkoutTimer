@@ -1,0 +1,65 @@
+.amber {
+  background-color: var(--amber);
+}
+
+.red {
+  background-color: var(--red);
+}
+
+.green {
+  background-color: var(--green);
+}
+
+.blue {
+  background-color: var(--blue);
+}
+
+.gray {
+  background-color: var(--gray);
+}
+
+.error {
+  border: 2px solid var(--red);
+  color: var(--red);
+}
+
+.blinkGreen {
+  animation: blinkGreen 1s ease-in-out infinite;
+}
+
+.blinkRed {
+  animation: blinkRed 1s ease-in-out infinite;
+}
+
+.none {
+  display: none;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+/* Animation */
+@keyframes blinkGreen {
+
+  0%,
+  100% {
+      background-color: var(--green);
+  }
+
+  50% {
+      background-color: var(--gray);
+  }
+}
+
+@keyframes blinkRed {
+
+  0%,
+  100% {
+      background-color: var(--red);
+  }
+
+  50% {
+      background-color: var(--gray);
+  }
+}

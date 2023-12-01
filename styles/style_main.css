@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --amber: #e3b505;
+  --amberLight: #f0d53f;
+  --amberDark: #915904;
+  --green: #53dd6c;
+  --greenLight: #9af397;
+  --greenDark: #12753b;
+  --red: #bb342f;
+  --redLight: #e65d74;
+  --redDark: #812a0f;
+  --blue: #66c7f4;
+  --blueLight: #98dff5;
+  --blueDark: #245fa3;
+  --gray: #747c92;
+  --grayLight: #abb8c0;
+  --grayDark: #4d4953;
+  --purple: #66023C;
+  --purpleLight: #8d2197;
+  --purpleDark: #470217;
+  --white: #ffffff;
+}
+
+body {
+  background: black;
+}
+
+header {
+  background: var(--purple);
+}
+
+h1 {
+  text-align: center;
+  color: var(--amberLight)
+}
+
+.container {
+  width: 70svw;
+  height: 95svh;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Common styles for all elements */
+.container__prepare,
+.container__work,
+.container__rest,
+.container__cooldown,
+.container__setting--Cycle,
+.container__setting--Tabata,
+.container__timer,
+input, button {
+  border-radius: 10px;
+  margin: 0.44rem 0;
+  padding: 0.6rem;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.container__prepare,
+.container__work,
+.container__rest,
+.container__cooldown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0rem;
+  padding: 0.6rem 1.4rem;
+  min-width: 275px;
+  max-width: 100%;
+  width: 100%;
+}
+
+.container__setting {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.container__setting--Cycle,
+.container__setting--Tabata {
+  background: linear-gradient(var(--grayDark), var(--grayLight), var(--gray));
+  color: var(--white);
+  min-width: 125px;
+  max-width: 46%;
+  width: 40%;
+}
+
+.container__timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  width: 100%;
+  height: 35svh;
+  background-color: var(--gray);
+}
+
+/* Button Styling */
+.button {
+  display: inline-block;
+  padding: 0.625rem 1.25rem;
+  background: linear-gradient(var(--purpleDark), var(--purpleLight), var(--purple));
+  border-radius: 16px;
+  color: var(--white);
+  font-size: 2.37rem;
+  letter-spacing: .34rem;
+  width: 100%;
+  height: 80px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+  background-color: var(--purple);
+}
+
+input {
+  border-radius: 5px;
+  height: 2.37rem;
+  font-size: 1.33rem;
+  font-weight: bold;
+}
+
+/* Special styling for certain elements */
+.container--amber {
+  background: linear-gradient(var(--amberDark), var(--amberLight), var(--amber));
+}
+
+.container--green {
+  background: linear-gradient(var(--greenDark), var(--greenLight), var(--green));
+}
+
+.container--red {
+  background: linear-gradient(var(--redDark), var(--redLight), var(--red));
+}
+
+.container--blue {
+  background: linear-gradient(var(--blueDark), var(--blueLight), var(--blue));
+}
+
+/* Responsive Design */
+@media (min-width: 300px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 400px) {
+  .container {
+    width: 66svw;
+  }
+}
+
+@media (min-width: 600px) {
+  .container {
+    width: 33svw;
+  }
+}
+
+@media (min-width: 800px) {
+  .container {
+    width: 500px;
+  }
+}
