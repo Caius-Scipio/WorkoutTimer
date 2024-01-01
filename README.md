@@ -19,26 +19,16 @@ This project first starter out as a simple countdown timer but escalated into a 
 ### The challenge
 
 When I finally decided to put this project down, I would have included the following into the project:
-  - HTML Structure: 
-    - well-structured to represent the timer and user interface components
-  - CSS Styling: 
-    - design an aesthetically pleasing and responsive user interface
-  - JavaScript Functionality: 
-    - include handling user input, updating the display dynamically, and controlling the timer based on different workout phases
-  - Object-Oriented Programming: 
-    - to organize Javascript code for project maintainability
-  - Event Handling: 
-    - utilize event listeners to capture user interactions with buttons and trigger corresponding functions
-  - Dynamic Timer Display: 
-    - update the timer display dynamically, reflecting the current phase and time remaining in minutes and seconds
-  - User Experience: 
-    - visually indicate the current phase, and use appropriate transitions/animations
-  - Customization Options: 
-    - allow users to customize the workout parameters
-  - Validation and Error Handling: 
-    - implement input validation to handle negative numbers or non-numeric inputs
-  - Responsive Design: 
-    - design the application to be responsive, ensuring it works well on various devices and screen sizes.
+  - HTML Structure: well-structured to represent the timer and user interface components
+  - CSS Styling: design an aesthetically pleasing and responsive user interface
+  - JavaScript Functionality: include handling user input, updating the display dynamically, and controlling the timer based on different workout phases
+  - Object-Oriented Programming: to organize Javascript code for project maintainability
+  - Event Handling: utilize event listeners to capture user interactions with buttons and trigger corresponding functions
+  - Dynamic Timer Display: update the timer display dynamically, reflecting the current phase and time remaining in minutes and seconds
+  - User Experience: visually indicate the current phase, and use appropriate transitions/animations
+  - Customization Options: allow users to customize the workout parameters
+  - Validation and Error Handling: implement input validation to handle negative numbers or non-numeric inputs
+  - Responsive Design: design the application to be responsive, ensuring it works well on various devices and screen sizes.
 
 ### Screenshot
 
@@ -110,7 +100,7 @@ Here are a few things I'd like to add in the future:
 
 ### Useful resources
 
-- [w3schools](https://www.w3schools.com)
+- [w3schools](https://www.w3schools.com) My reference to remember the syntax and possibilites.
 
 ## Author
 
